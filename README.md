@@ -1,5 +1,13 @@
-# practise-repositories
-practise-repositories
+git remote add origin https://github.com/shivangishakya78-web/github-repository.git
+
+git remote -v
+
+git config --global pull.rebase false
+
+git pull origin main --allow-unrelated-histories
+
+git push -u origin main
+ 
 cd /opt/
 
 sudo dnf update -y
@@ -14,7 +22,7 @@ ls -ld /var/www/html
 
 mkdir -p /var/www/html
 
-git clone https://github.com/arvindsgsj95-cyber/practise-repositories.git
+git clone https://github.com/shivangishakya78-web/github-repository.git
 
 dir
 
@@ -22,11 +30,11 @@ cd github-repository/
 
 git status
 
-mkdir arvind
+mkdir shivangi
 
-chmod 655 arvind
+chmod 655 shivangi
 
-cd arvind/
+cd shivangi/
 
 vi index.html
 <h1>CI CD Working Successfully</h1>
@@ -37,7 +45,7 @@ git add index.html
 
 git status
 
-git commit -m "change by arvind"
+git commit -m "change by shivangi"
 
 git branch
 
@@ -73,11 +81,11 @@ git status
 
 git add .gitignore
 
-git commit -m "arvind"
+git commit -m "shivangi"
 
 git branch
 
-git remote add origin https://github.com/arvindsgsj95-cyber/practise-repositories.git
+git remote add origin https://github.com/shivangishakya78-web/github-repository.git
 
 git remote -v
 
